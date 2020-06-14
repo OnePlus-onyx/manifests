@@ -7,10 +7,6 @@
   <remote name="cicada"  fetch="https://github.com/OnePlus-onyx" />
   <remote  name="ustc"  fetch="git://mirrors.ustc.edu.cn/aosp" />
 
-  <default revision="refs/tags/android-10.0.0_r11"
-           remote="aosp"
-           sync-j="128" />
-
 <!-- onyx mod -->
   <!-- add qcom -->
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk-qcom" />
