@@ -6,12 +6,11 @@
  
   <remote name="github" fetch="https://github.com" />
   <remote name="lemon"  fetch="https://github.com/Pie-onyx" revision="aosp-10.0" />
-  <remote name="reb2g"  fetch="https://github.com/ReB2GOS/" />
-  <remote name="cicada"  fetch="https://github.com/CicadaOS/" />
+  <remote name="cicada"  fetch="https://github.com/OnePlus-onyx" />
   <remote  name="ustc"  fetch="git://mirrors.ustc.edu.cn/aosp" />
 
   <default revision="refs/tags/android-10.0.0_r11"
-           remote="ustc"
+           remote="aosp"
            sync-j="128" />
 
 <!-- onyx mod -->
@@ -32,7 +31,7 @@
   <project path="external/sony/boringssl-compat" name="external_sony_boringssl-compat" remote="lemon" />
   <project path="vendor/lemon" name="vendor_lemon" remote="lemon" />
   <project path="patcher" name="patcher" remote="cicada" revision="gonk_android-10.0.0_r11" />
-  <project name="device_oneplus_onyx" path="device/oneplus/onyx" remote="cicada" revision="gonk_android-10.0.0_r11" />
+  <project name="device_oneplus_onyx" path="device/oneplus/onyx" remote="cicada" revision="without-gecko" />
   <project name="kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="cicada" revision="gonk_android-10.0.0_r11" depth="1" />
   <project name="YumeMichi/vendor_oneplus_onyx" path="vendor/oneplus/onyx" remote="github" revision="lineage-17.0" depth="1" />
  
