@@ -6,6 +6,7 @@
   <remote name="lemon"  fetch="https://github.com/Pie-onyx" revision="aosp-10.0" />
   <remote name="cicada"  fetch="https://github.com/OnePlus-onyx" />
   <remote  name="ustc"  fetch="git://mirrors.ustc.edu.cn/aosp" />
+  <default revision="refs/tags/android-10.0.0_r11" remote="ustc" sync-j="4"/>
 
 <!-- onyx mod -->
   <!-- add qcom -->
