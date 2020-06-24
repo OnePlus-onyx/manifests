@@ -24,7 +24,7 @@
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lemon" />
   <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996,pdk-qcom" />
    <!-- onyx staff -->
-  <project name="device_oneplus_onyx" path="device/oneplus/onyx" remote="cicada" revision="gonk_android-10.0.0_r11" />
+  <project name="device_oneplus_onyx" path="device/oneplus/onyx" remote="cicada" revision="test" />
   <project name="kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="cicada" revision="gonk_android-10.0.0_r11" depth="1" />
   <project name="proprietary_vendor_oneplus" path="vendor/oneplus/onyx" remote="cicada" revision="gonk_android-10.0.0_r11" depth="1" />
   <project path="external/sony/boringssl-compat" name="external_sony_boringssl-compat" remote="lemon" />
