@@ -8,8 +8,6 @@
   <remote  name="ustc"  fetch="git://mirrors.ustc.edu.cn/aosp" />
   <default revision="refs/tags/android-10.0.0_r11" remote="ustc" sync-j="4"/>
   
-  <remove-project name="libcarthage" />
-  <project name="libcarthage" path="gonk-misc/libcarthage" remote="cicada" revision="test"/>
 
 <!-- onyx mod -->
   <!-- add qcom -->
