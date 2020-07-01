@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="base-q.xml"/>
-  <remote name="cicada"  fetch="https://github.com/OnePlus-onyx" />
+  <remote name="cicada"  fetch="https://github.com/OnePlus-onyx" revision="aosp-10.0" />
   <remote  name="ustc"  fetch="git://mirrors.ustc.edu.cn/aosp" />
   <default revision="refs/tags/android-10.0.0_r11" remote="ustc" sync-j="4"/>
 
