@@ -7,7 +7,6 @@
   <remote name="cicada"  fetch="https://github.com/OnePlus-onyx" />
   <remote  name="ustc"  fetch="git://mirrors.ustc.edu.cn/aosp" />
   <default revision="refs/tags/android-10.0.0_r11" remote="ustc" sync-j="4"/>
-  
 
 <!-- onyx mod -->
   <!-- add qcom -->
@@ -25,8 +24,8 @@
   <project path="external/sony/boringssl-compat" name="external_sony_boringssl-compat" remote="lemon" />
   <project path="vendor/lemon" name="vendor_lemon" remote="lemon" />
   <project path="patcher" name="patcher" remote="cicada" revision="gonk_android-10.0.0_r11" />
-  <project name="device_oneplus_onyx" path="device/oneplus/onyx" remote="cicada" revision="test2" />
+  <project name="device_oneplus_onyx" path="device/oneplus/onyx" remote="cicada" revision="gonk_android-10.0.0_r11" depth="1" />
   <project name="kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="cicada" revision="gonk_android-10.0.0_r11" depth="1" />
-  <project name="YumeMichi/vendor_oneplus_onyx" path="vendor/oneplus/onyx" remote="github" revision="lineage-17.0" depth="1" />
+  <project name="vendor_oneplus_onyx" path="vendor/oneplus/onyx" remote="cicada" revision="gonk_android-10.0.0_r11" depth="1" />
  
 </manifest>
