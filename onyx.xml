@@ -18,7 +18,7 @@
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom,pdk-qcom" remote="cicada" revision="aosp-10.0_caf" />
    <!-- onyx staff -->
   <project path="vendor/lemon" name="vendor_lemon" remote="cicada" />
-  <project path="patcher" name="patcher" remote="cicada" revision="gonk_android-10.0.0_r11" />
+  <project path="patcher" name="patcher" remote="cicada" revision="gonk_origin" />
   <project path="external/sony/boringssl-compat" name="external_sony_boringssl-compat" remote="cicada" />
   <project name="device_oneplus_onyx" path="device/oneplus/onyx" remote="cicada" revision="gonk_android-10.0.0_r11" depth="1" />
   <project name="kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="cicada" revision="gonk_android-10.0.0_r11" depth="1" />
